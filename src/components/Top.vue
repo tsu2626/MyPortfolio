@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
-    <h1>Welcome to Tsuyoshi Hirosawa's Portfolio Site</h1>
-    <h2>{{ tab1 }}</h2>
+  <div class="container">
+    <h1 class="title is-1　has-text-left-mobile has-text-centerd">Welcome to Tsuyoshi Hirosawa's Portfolio Site</h1>
+    <!-- <h2>{{ tab1 }}</h2>
     <ul>
       <li><a href="https://twitter.com/watuyo_2">Twitter</a></li>
       <li><a href="https://github.com/tsu2626">GItHub</a></li>
@@ -10,7 +10,7 @@
       <li><a href="https://connpass.com/user/watuyo_2/">connpass</a></li>
       <li><a href="https://supporterzcolab.com/user/watuyo/">SupporterzColab</a></li>
       <li><a href="https://watuyo-2.hateblo.jp/">HatenaBlog</a></li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -40,5 +40,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.container {
+  padding-top: 20%;
 }
 </style>
