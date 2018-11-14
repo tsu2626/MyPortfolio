@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="title is-1　has-text-left-mobile has-text-centerd">
     <h1>Contacts</h1>
   </div>
 </template>

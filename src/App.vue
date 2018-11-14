@@ -13,6 +13,11 @@
           </a>
         </li>
         <li>
+          <a href="#/servises">
+            <span>Servises</span>
+          </a>
+        </li>
+        <li>
           <a href="#/contacts">
             <span>Contact</span>
           </a>
