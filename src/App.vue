@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h1>Welcome to Tsuyoshi Hirosawa's Portfolio Site</h1>
+    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>
@@ -11,7 +12,9 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "../node_modules/node-sass";
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
