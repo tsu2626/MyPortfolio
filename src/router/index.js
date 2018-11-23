@@ -5,6 +5,7 @@ import About from '@/components/About'
 import Servises from '@/components/Servises'
 import Contacts from '@/components/Contacts'
 
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +30,5 @@ export default new Router({
       name: '',
       component: Contacts
     }
-
   ]
 })

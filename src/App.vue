@@ -1,29 +1,31 @@
 <template>
   <div id="app">
-    <div class="tabs is-toggle is-fullwidth">
-      <ul>
-        <li>
-          <a href="#/"> 
-            <span>Top</span>
-          </a>
-        </li>
-        <li>
-          <a href="#/about">
-            <span>About</span>
-          </a>
-        </li>
-        <li>
-          <a href="#/servises">
-            <span>Servises</span>
-          </a>
-        </li>
-        <li>
-          <a href="#/contacts">
-            <span>Contact</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <header>
+      <div class="navbar tabs is-toggle is-fullwidth">
+        <ul>
+          <li>
+            <a href="#/"> 
+              <span>Top</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/about">
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/servises">
+              <span>Servises</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/contacts">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <router-view/>
   </div>
 </template>
@@ -36,6 +38,10 @@ export default {
 
 <style lang="scss">
 @import "../node_modules/bulma/bulma.sass";
+.header {
+  position: fixed;
+  z-index: 10;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
