@@ -1,6 +1,8 @@
 <template>
-  <div class="title is-1　has-text-left-mobile has-text-centerd">
-    <h1>Contacts</h1>
+  <div class="contactTop">
+    <div class="title is-1　has-text-left-mobile has-text-centerd">
+      <h1>Contacts</h1>
+    </div>
   </div>
 </template>
 
@@ -30,5 +32,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.contactTop {
+  padding: 5%;
 }
 </style>
