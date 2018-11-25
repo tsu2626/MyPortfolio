@@ -15,10 +15,10 @@
     </div>
     <div class="bottom">
       <p>Share</p>
-      <div class="share">
-        <a href="http://twitter.com/share?url=http://http://localhost:8080/#/"><span>Twitter</span></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8080/#/"><span>Facebook</span></a>
-        <a href="http://line.me/R/msg/text/?http://localhost:8080/#/"><span>LINE</span></a>
+      <div class="buttons">
+        <a href="http://twitter.com/share?url=http://http://localhost:8080/#/"><span class="button is-info">Twitter</span></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8080/#/"><span class="button fb">Facebook</span></a>
+        <a href="http://line.me/R/msg/text/?http://localhost:8080/#/"><span class="button is-success">LINE</span></a>
       </div>
     </div>
   </body>
@@ -66,5 +66,10 @@ li {
   color: white;
   font-size: 200%;
   padding: 2%;
+}
+.fb {
+  background-color: #3B5998;
+  border-color: #3B5998;
+  color: #fff;
 }
 </style>
