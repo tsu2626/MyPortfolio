@@ -3,8 +3,11 @@
     <section class="hero is-info is-large">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title">
+          <p class="title is-1">
             Welcome to Tsuyoshi Hirosawa's Portfolio Site
+          </p>
+          <p class="subtitle is-4">
+            Web Engineer
           </p>
         </div>
         <div class="bottom">
@@ -62,7 +65,7 @@ li {
 // }
 .bottom p {
   font-size: 200%;
-  padding-top: 15%;
+  padding-top: 9%;
   padding-bottom: 2%;
 }
 // .share a {
