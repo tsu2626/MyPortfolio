@@ -14,8 +14,8 @@
             </a>
           </li>
           <li>
-            <a href="#/servises">
-              <span>Servises</span>
+            <a href="#/services">
+              <span>Services</span>
             </a>
           </li>
           <li>

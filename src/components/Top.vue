@@ -1,26 +1,24 @@
 <template>
   <body>
-    <div class="top">
-      <h1 class="title is-1　has-text-left-mobile has-text-centerd">Welcome to Tsuyoshi Hirosawa's Portfolio Site</h1>
-      <!-- <h2>{{ tab1 }}</h2>
-      <ul>
-        <li><a href="https://twitter.com/watuyo_2">Twitter</a></li>
-        <li><a href="https://github.com/tsu2626">GItHub</a></li>
-        <li><a href="https://qiita.com/watuyo_2">Qiita</a></li>
-        <li><a href="https://qa8srqqprvzps6ls.qrunch.io/">Qrunch</a></li>
-        <li><a href="https://connpass.com/user/watuyo_2/">connpass</a></li>
-        <li><a href="https://supporterzcolab.com/user/watuyo/">SupporterzColab</a></li>
-        <li><a href="https://watuyo-2.hateblo.jp/">HatenaBlog</a></li>
-      </ul> -->
-    </div>
-    <div class="bottom">
-      <p>Share</p>
-      <div class="share">
-        <a href="http://twitter.com/share?url=http://http://localhost:8080/#/"><span>Twitter</span></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8080/#/"><span>Facebook</span></a>
-        <a href="http://line.me/R/msg/text/?http://localhost:8080/#/"><span>LINE</span></a>
+    <section class="hero is-info is-large">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">
+            Welcome to Tsuyoshi Hirosawa's Portfolio Site
+          </p>
+        </div>
+        <div class="bottom">
+          <p>Share</p>
+          <div class="columns">
+            <div class="column buttons" id="buttons">
+              <a href="http://twitter.com/share?url=http://http://localhost:8080/#/"><span class="button is-info">Twitter</span></a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8080/#/"><span class="button is-primary" id="fb">Facebook</span></a>
+              <a href="http://line.me/R/msg/text/?http://localhost:8080/#/"><span class="button is-success">LINE</span></a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
 </template>
 
@@ -36,6 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../node_modules/bulma/bulma.sass";
 h1, h2 {
   font-weight: normal;
 }
@@ -48,22 +47,35 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-.top {
-  padding-top: 20%;
-  padding-bottom:  5%;
+.hero {
   background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
 }
-.bottom {
-  padding-top: 5%;
-  padding-bottom: 30%;
-  background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
-}
+// .top {
+//   padding-top: 20%;
+//   padding-bottom:  5%;
+//   background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
+// }
+// .bottom {
+//   padding-top: 5%;
+//   padding-bottom: 30%;
+//   background-image: linear-gradient(-90deg, #00E5FF, #00B2FF);
+// }
 .bottom p {
   font-size: 200%;
+  padding-top: 15%;
+  padding-bottom: 2%;
 }
-.share a {
-  color: white;
-  font-size: 200%;
-  padding: 2%;
+// .share a {
+//   color: white;
+//   font-size: 200%;
+//   padding: 2%;
+// }
+#buttons {
+  
+}
+#fb {
+  background-color: #3B5998;
+  border-color: #3B5998;
+  color: #fff;
 }
 </style>

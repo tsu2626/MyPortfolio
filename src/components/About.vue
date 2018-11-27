@@ -1,7 +1,9 @@
 <template>
+<div class="aboutTop">
   <div class="title is-1　has-text-left-mobile has-text-centerd">
     <h1>About</h1>
   </div>
+</div>
 </template>
 
 <script>
@@ -29,5 +31,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.aboutTop {
+  padding: 5%;
 }
 </style>

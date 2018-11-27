@@ -1,6 +1,8 @@
 <template>
-  <div class="title is-1　has-text-left-mobile has-text-centerd">
-    <h1>Contacts</h1>
+  <div class="contactTop">
+    <div class="title is-1　has-text-left-mobile has-text-centerd">
+      <h1>Contacts</h1>
+    </div>
   </div>
 </template>
 
@@ -15,7 +17,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+@import "../../node_modules/bulma/bulma.sass";
 h1, h2 {
   font-weight: normal;
 }
@@ -29,5 +32,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.contactTop {
+  padding: 5%;
 }
 </style>

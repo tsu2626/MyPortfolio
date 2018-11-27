@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Top from '@/components/Top'
 import About from '@/components/About'
-import Servises from '@/components/Servises'
+import Services from '@/components/Services'
 import Contacts from '@/components/Contacts'
 
 
@@ -21,9 +21,9 @@ export default new Router({
       component: About
     },
     {
-      path: '/servises',
+      path: '/Services',
       name: '',
-      component: Servises
+      component: Services
     },
     {
       path: '/contacts',
