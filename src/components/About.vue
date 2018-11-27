@@ -1,9 +1,21 @@
 <template>
-<div class="aboutTop">
-  <div class="title is-1　has-text-left-mobile has-text-centerd">
-    <h1>About</h1>
+<body>
+  <div class="aboutTop">
+    <div class="title is-1　has-text-left-mobile has-text-centerd">
+      <h1>About</h1>
+    </div>
   </div>
-</div>
+  <div class="aboutBottom">
+    <ul id="" class="colloms">
+      <li class="collom" v-for="about in abouts" :key="about">
+        <div class="box">
+          {{ about.title }}
+          <p>aaaaa</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
 </template>
 
 <script>
@@ -11,6 +23,9 @@ export default {
   name: 'About',
   data () {
     return {
+      abouts:[
+        {title: "生い立ち"}
+      ]
     }
   }
 }
