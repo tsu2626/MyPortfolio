@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       abouts:[
-        {title: "生い立ち"}
+        {title: "Profile"}
       ]
     }
   }

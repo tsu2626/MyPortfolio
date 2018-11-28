@@ -3,7 +3,7 @@
     <section class="hero is-info is-large">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title is-1">
+          <p class="title is-1 is-bold　is-medium">
             Welcome to Tsuyoshi Hirosawa's Portfolio Site
           </p>
           <p class="subtitle is-4">
