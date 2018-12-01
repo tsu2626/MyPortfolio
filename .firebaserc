@@ -1,5 +1,7 @@
 {
   "projects": {
-    "myportfolio": "myportfolio-1994"
+    "myportfolio": "tsuyoshi-hirosawa",
+    "default": "tsuyoshi-hirosawa",
+    "tsuyoshi-hirosawa": "tsuyoshi-hirosawa"
   }
 }
